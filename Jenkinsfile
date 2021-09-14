@@ -15,7 +15,7 @@ pipeline {
         
         stage('Build') {
             steps {
-                sh 'ls -al Web_files'
+                sh 'scp Web_files/index.html jenkins@192.168.15.236:/var/www/site/site1.com'
             }
         }
        
