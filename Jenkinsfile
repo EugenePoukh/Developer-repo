@@ -15,7 +15,7 @@ pipeline {
         
         stage('Build') {
             steps {
-                sh 'ls -al'
+                sh 'ls -al Web_files'
             }
         }
        
