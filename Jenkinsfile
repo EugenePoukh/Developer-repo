@@ -11,7 +11,7 @@ pipeline {
 			        url: 'git@github.com:EugenePoukh/Developer-repo.git'           		}
 	        }
         }
-    }   
+    
         
         stage('Build') {
             steps {
@@ -20,6 +20,6 @@ pipeline {
         }
        
     }
-
+}
 
 
