@@ -13,11 +13,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-<<<<<<< HEAD
                 ls -al
-=======
-                sh "ls -l"
->>>>>>> f50c7f6d1fdacba2f98dd9ce9fc7a3bae00b4a8f
             }
         }
        
