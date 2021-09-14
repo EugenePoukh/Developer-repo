@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                ls -al
+                sh 'scp index.html jenkins@192.168.15.236:/var/www/site/site1.com'
             }
         }
        
