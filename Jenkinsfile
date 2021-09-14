@@ -8,7 +8,7 @@ pipeline {
 		        dir("Web_files"){
 			        git branch: 'main',
 			        credentialsId: 'f2eda0ea-493a-47d7-b78b-6f036f01a9f5',
-			        url: 'git@github.com:EugenePoukh/Developer-repo.git'           		}
+			        url: 'git@github.com:EugenePoukh/Source-repo.git'           		}
 	        }
         }
     
